@@ -1,4 +1,5 @@
-# douban
+# vue-router/vuex
+#有关vue-router和vuex的学习笔记
 
 > A Vue.js project
 
