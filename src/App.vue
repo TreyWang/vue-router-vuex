@@ -16,6 +16,7 @@
     <br/>
     <div>
       <button v-on:click="alertCount()">调用Getter方法</button>
+      <hr/>
       <router></router>
     </div>
   </div>
@@ -56,6 +57,13 @@
       ...mapGetters([
         'alertCount'
       ])
+    },
+    watch: {
+      '$route' (to, from) {
+          const toDepth = to.path.split('/').length
+          const fromDepth = from.path.split('/').length
+          this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+      }
     }
 
   }

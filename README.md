@@ -21,3 +21,8 @@ npm run build --report
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # vue-router-vuex
+
+
+
+#2017-6-7
+#关于官方网站https://router.vuejs.org/zh-cn/所有内容学习完成，并完成编码
